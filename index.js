@@ -15,3 +15,5 @@ if (require.main === module) {
     console.log(`Server running at port ${port}`);
   });
 }
+
+module.exports = app; // Export for testing
